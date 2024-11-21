@@ -167,10 +167,10 @@
                     alt="Card Image"
                 />
                 <div class="p-2 md:p-3">
-                    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+                    <h3 class="text-lg font-bold text-gray-800">
                         { cat.catName }
                     </h3>
-                    <p class="mt-1 text-gray-500 dark:text-neutral-400">
+                    <p class="mt-1 text-gray-500">
                         { cat.catDescription }
                     </p>
                     <form method="POST" action="?/deleteCat">
